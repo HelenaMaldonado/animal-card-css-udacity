@@ -1,0 +1,53 @@
+body
+{
+  background-color: #8B0000;
+}
+
+#card
+{
+  border: 1px dotted blue;
+  width: 300px;
+  height: 580px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5em;
+  background-color: lightblue;
+  text-align: left;
+  box-shadow: 15px 10px 4px 6px rgba(0,0,0,0.24);
+}
+
+.info
+{
+  border: 1px solid blue;
+  width: 300px;
+  height: 250px;
+  /*margin: 7px;*/
+  padding: 4px;
+}
+
+.funfact
+{
+  font-style: italic;
+}
+
+ul
+{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+img
+{
+  max-width: 300px;
+  max-height: 200px;
+}
+
+p
+{
+  font-size: 15px;
+}
+
+span
+{
+  font-weight: bold;
+}
